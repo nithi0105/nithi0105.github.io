@@ -49,6 +49,7 @@ ul.posts li {
 }
 
 ul.resume li{
+    list-style-type: none;
     display:inline;
 }
 

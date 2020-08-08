@@ -18,6 +18,9 @@ a {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #999;
 }
+a.res{
+    color:#00008B
+}
 a:hover {
     text-decoration: underline;
 }

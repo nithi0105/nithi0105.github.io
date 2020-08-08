@@ -47,3 +47,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+ul.resume li{
+    display:inline;
+}
+

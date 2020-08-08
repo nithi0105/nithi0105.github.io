@@ -19,7 +19,7 @@ a {
     color: #999;
 }
 a.res:link{
-    color:#00008b
+    color:rgb(10, 25, 47);
 }
 a:hover {
     text-decoration: underline;

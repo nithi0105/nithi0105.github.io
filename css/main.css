@@ -13,14 +13,15 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+a.res:link{
+    color:rgb(10, 25, 47);
+}
 a {
     text-decoration: none;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #999;
 }
-a.res:link{
-    color:rgb(10, 25, 47);
-}
+
 a:hover {
     text-decoration: underline;
 }

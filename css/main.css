@@ -48,7 +48,8 @@ ul.posts li {
     list-style: none;
 }
 
-ul.resume li{
+ul.res-sections li{
     display:inline;
+    list-style-type: none;
 }
 

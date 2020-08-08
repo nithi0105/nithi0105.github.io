@@ -18,7 +18,7 @@ a {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #999;
 }
-a.res{
+a.res:link{
     color:#00008B
 }
 a:hover {

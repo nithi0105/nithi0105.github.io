@@ -83,7 +83,12 @@ ul.res-body li{
     font-size: 17px
     color: #61606a;   
 }
-
+ul.interests li{
+    list-style:none;
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;   
+}
+    
 .res-body{
     font-family: 'Inconsolata', 'monospace';
     color: #61606a;
@@ -128,6 +133,7 @@ ul.p-body li{
 .tech-stack{
     font-family: 'Inconsolata', 'monospace';
     color: #808080;
+    font-weight:bold;
 }
 .res-headings{
     font-weight:bold;

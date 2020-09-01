@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -5,7 +14,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding:10px 10px 20px 0px;
     list-style: none;
     font-weight: bold;
 }
@@ -15,32 +24,43 @@ nav ul li, footer ul li {
 }
 a.res:link{
     color:rgb(10, 25, 47);
+    padding:4px 4px 4px 0px;
+
 }
 a {
     text-decoration: none;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Inconsolata', 'monospace';
     color: #999;
+    font-size: 20px
+
 }
 
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h1.disclaimer{
+h1{
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Lobster', 'cursive';
+    padding:10px 10px 10px 0px;
 }
+
 h2 {
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Inconsolata', 'monospace';
+    padding:10px 10px 10px 0px;
+    /*font-family:'FreeMono', 'monospace';*/
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #61606a;
+    font-family: 'Inconsolata', 'monospace';
+}
+p.intro{
+    font-size: 1.3em;
     line-height: 1.4em;
     color: #808080;
+    font-family: 'Inconsolata', 'monospace';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -57,10 +77,61 @@ ul.posts li {
 }
 
 
-ul.res-sections li{
-    display:inline;
-    list-style-type: none;
-    padding: 4px;
-    margin:0;
+ul.res-body li{
+    font-family: 'Inconsolata', 'monospace';
+    list-style:none;
+    font-size: 17px
+    color: #61606a;   
 }
 
+.res-body{
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;
+    padding-bottom:10px;
+}
+ul.res-sections li{
+    margin: 0px;
+    text-align: left;
+    width: 50%;
+    display:inline;
+    list-style-type: none;
+    padding: 4px 12px 4px 0px;
+    font-family: 'Inconsolata', 'monospace';
+    font-weight: bold;
+    font-size:1.4em;
+}
+.s-head{
+    font-family: 'Inconsolata', 'monospace';
+    font-size: 1.2em
+
+}
+.s-body{
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;
+    padding:4px 4px 4px 0px;
+
+}
+.e-dateplace{
+    font-family: Consolas,monaco,monospace; 
+    color: #808080;
+    padding: 0px 0px 10px 0px;
+}
+.p-body{
+    font-family: 'Inconsolata', 'monospace';
+    list-style:none;
+    color: #61606a;
+}
+
+ul.p-body li{
+    list-style-type: none;
+}
+.tech-stack{
+    font-family: 'Inconsolata', 'monospace';
+    color: #808080;
+}
+.res-headings{
+    font-weight:bold;
+    color:black;
+    font-family: 'Inconsolata', 'monospace';
+    font-size:1.2em;
+}

@@ -27,6 +27,13 @@ a.res:link{
     padding:4px 4px 4px 0px;
 
 }
+
+a.links{
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;
+    font-size:16px;
+}
+
 a {
     text-decoration: none;
     font-family: 'Inconsolata', 'monospace';
@@ -88,6 +95,11 @@ ul.interests li{
     font-family: 'Inconsolata', 'monospace';
     color: #61606a;   
 }
+ul.hob li{
+    list-style:none;
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;   
+}
     
 .res-body{
     font-family: 'Inconsolata', 'monospace';
@@ -140,4 +152,21 @@ ul.p-body li{
     color:black;
     font-family: 'Inconsolata', 'monospace';
     font-size:1.2em;
+}
+.boxes{
+    font-family: 'Inconsolata', 'monospace';
+    color: #61606a;
+    padding:10px;
+}
+.interests{
+    font-family: 'Inconsolata', 'monospace';
+    width:50%;
+    float:left;
+    color: #61606a;
+}
+.hob{
+    font-family: 'Inconsolata', 'monospace';
+    width:50%;
+    float:left;
+    color: #61606a;
 }

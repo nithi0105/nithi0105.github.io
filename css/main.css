@@ -95,7 +95,7 @@ ul.interests li{
     font-family: 'Inconsolata', 'monospace';
     color: #61606a;   
 }
-ul.hob li{
+ul.hob {
     list-style:none;
     font-family: 'Inconsolata', 'monospace';
     color: #61606a;   
